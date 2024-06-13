@@ -1,7 +1,8 @@
 <?php
 
 namespace RobinCorrea\Php8DesignPatterns\Creational\Factory;
-use \Exception;
+
+use Exception;
 
 class PaymentFactory
 {
@@ -13,7 +14,7 @@ class PaymentFactory
             case 'paypal':
                 return new PaypalPayment();
             default:
-                throw new Exception("Payment method not supported.");
+                throw new Exception('Payment method not supported.');
         }
     }
 }

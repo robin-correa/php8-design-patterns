@@ -11,5 +11,7 @@
             "email": "robin.correa21@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "laravel/pint": "^1.16"
+    }
 }

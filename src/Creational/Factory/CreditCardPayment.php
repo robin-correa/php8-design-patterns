@@ -6,6 +6,6 @@ class CreditCardPayment implements PaymentMethodInterface
 {
     public function pay(float $amount): string
     {
-        return "Paid $" . $amount . " using Credit Card.";
+        return 'Paid $'.$amount.' using Credit Card.';
     }
 }

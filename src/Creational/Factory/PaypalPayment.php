@@ -6,6 +6,6 @@ class PaypalPayment implements PaymentMethodInterface
 {
     public function pay(float $amount): string
     {
-        return "Paid $" . $amount . " using PayPal.";
+        return 'Paid $'.$amount.' using PayPal.';
     }
 }
