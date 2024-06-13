@@ -6,7 +6,7 @@ use RobinCorrea\Php8DesignPatterns\Creational\Singleton\PaymentGateway;
 
 // Get the PaymentGateway instance
 $paymentGateway = PaymentGateway::getInstance();
-echo $paymentGateway->processPayment(100.0, 'USD', 'credit_card')."\n";
+echo $paymentGateway->processPayment(100.0, 'USD', 'creditcard')."\n";
 
 // Get the configuration to verify the same instance is used
 $config = $paymentGateway->getConfig();
