@@ -1,6 +1,6 @@
 <?php
 
-require 'vendor/autoload.php';
+require_once 'vendor/autoload.php';
 
 use RobinCorrea\Php8DesignPatterns\Creational\Factory\PaymentFactory;
 
